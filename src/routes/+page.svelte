@@ -80,7 +80,10 @@
 </svelte:head>
 
 <section class="flex flex-col gap-12">
-	<Heading tag="h1">ML Vision with MobileNet images Classifier</Heading>
+	<Heading
+		tag="h1"
+		class="text-center">ML Vision with MobileNet images Classifier</Heading
+	>
 	<div class="ml-auto mr-auto block w-1/2">
 		<Label class="pb-2 text-lg">Select an image to classify</Label>
 		<Fileupload
