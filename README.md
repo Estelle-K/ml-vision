@@ -1,38 +1,47 @@
-# create-svelte
+# Integer MobileNet Image Classifier with SvelteKit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## About this project
 
-## Creating a project
+This project demonstrates an image classifier utilizing Integer MobileNet from TensorFlow.js within a SvelteKit framework. Users can download an image, and the application displays the image alongside three predicted classifications. This is a simple project and will evolve throughout my machine learning journey.
 
-If you're seeing this, you've probably already done this step. Congrats!
+**Key Features:**
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Leverages efficient Integer MobileNet model for on-device image classification.
+- User-friendly interface for image download and prediction display.
+- SvelteKit framework for smooth performance and interactivity.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Getting Started
 
-## Developing
+1. **Clone the repository:**
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+    ```bash
+    git clone https://github.com/Estelle-K/ml-vision.git
+    ```
 
-```bash
-npm run dev
+2. **Install dependencies:**
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+    ```bash
+    npm install
+    ```
 
-## Building
+3. **Start the development server:**
 
-To create a production version of your app:
+    ```bash
+    npm run dev -- --open
+    ```
 
-```bash
-npm run build
-```
+4. Access the app: Open <http://localhost:5173/> in your browser.
 
-You can preview the production build with `npm run preview`.
+**Usage:**
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+1. Click the "Select an image to classify" button and select an image file.
+2. The image will be uploaded and displayed.
+3. The application will process the image using Integer MobileNet and display three predicted classifications.
+
+**License:**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+**Additional Information:**
+
+- Stay updated with future developments by following the project on GitHub.
