@@ -34,4 +34,4 @@ This project presents an image classifier using MobileNet from TensorFlow.js wit
 
 **Additional Information:**
 
--   Stay updated with future developments by following the project on GitHub.
+- Stay informed about future developments by following the project on GitHub.
