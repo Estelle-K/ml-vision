@@ -1,16 +1,10 @@
-# Integer MobileNet Image Classifier with SvelteKit
+# Building an Image Recognition Website with SvelteKit and TensorFlow.js
 
 ## About this project
 
-This project demonstrates an image classifier utilizing Integer MobileNet from TensorFlow.js within a SvelteKit framework. Users can download an image, and the application displays the image alongside three predicted classifications. This is a simple project and will evolve throughout my machine learning journey.
+This project presents an image classifier using MobileNet from TensorFlow.js within a SvelteKit framework. Users can uplod an image, and the application displays the image alongside three predicted classifications. This is a simple project and will evolve throughout my machine learning journey.
 
-**Key Features:**
-
-- Leverages efficient Integer MobileNet model for on-device image classification.
-- User-friendly interface for image download and prediction display.
-- SvelteKit framework for smooth performance and interactivity.
-
-### Getting Started
+## Getting Started
 
 1. **Clone the repository:**
 
@@ -36,12 +30,8 @@ This project demonstrates an image classifier utilizing Integer MobileNet from T
 
 1. Click the "Select an image to classify" button and select an image file.
 2. The image will be uploaded and displayed.
-3. The application will process the image using Integer MobileNet and display three predicted classifications.
-
-**License:**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+3. The application will process the image using MobileNet and display three predicted classifications.
 
 **Additional Information:**
 
-- Stay updated with future developments by following the project on GitHub.
+-   Stay updated with future developments by following the project on GitHub.
